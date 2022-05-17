@@ -63,6 +63,7 @@ li a {
     left:0;
     right:0;
     padding: 10px 20px;
+    font-size: 20px;
     display:inline-block;
 }
 /*Button*/
@@ -75,10 +76,9 @@ li a {
     background-color:rgba(23, 26, 32, 0.8);
     text-align: center;
     top:85%;
-    left:40%;
+    left:30%;
     padding: 10px 20px;
     display:inline-block;
-    transform: translateX(-50%);
     margin: 0 0.5em;
 }
 .button2{
@@ -90,16 +90,31 @@ li a {
     background-color:#fff;
     text-align: center;
     top:85%;
-    left:60%;
+    left:65%;
     padding: 10px 20px;
     display:inline-block;
     transform: translateX(-50%);
+}
+
+.button3{
+    position: absolute;
+    border: 1px solid gray;
+    border-radius: 500px;
+    color: #fff;
+    font-size:14px;
+    background-color:rgba(23, 26, 32, 0.8);
+    text-align: center;
+    top:85%;
+    left:45%;
+    padding: 10px 20px;
+    display:inline-block;
+    margin: 0 0.5em;
 }
 /*TEST DRIVE*/
 .drive{
     position: absolute;
     text-align: center;
-    top:20%;
+    top:25%;
     left:0;
     right:0;
     padding: 10px 20px;
